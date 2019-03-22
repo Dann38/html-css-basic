@@ -1,0 +1,54 @@
+*{
+	background-color: #f8f8f8;
+}
+
+header h1{
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+header nav a {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #888888;
+}
+header nav ul{
+	list-style-type: none;
+}
+
+.info h3{
+	color: #000000;
+	font-size: 18px;
+	background-color: #eaeaea;
+
+}
+
+.info li{
+	list-style-image: url(apple_marker.png);
+}
+
+.briefly p{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.briefly a img{
+	border-color: #000000;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.info button{
+	color: #000000;
+	font-size: 20px; 
+  	text-decoration: none;
+  	user-select: none; 
+  	border-color: #000000;
+	border-style: solid;
+	border-width: 3px;
+  	padding: .7em 1.5em; 
+}
+
+ 
