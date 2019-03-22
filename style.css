@@ -12,7 +12,7 @@ header nav a {
 	font-size: 20px;
 	color: #888888;
 }
-header nav ul{
+header nav li{
 	list-style-type: none;
 }
 
@@ -40,7 +40,7 @@ header nav ul{
 	border-width: 3px;
 }
 
-.info button{
+.button{
 	color: #000000;
 	font-size: 20px; 
   	text-decoration: none;
@@ -51,4 +51,25 @@ header nav ul{
   	padding: .7em 1.5em; 
 }
 
- 
+form{
+	border: 2px solid #888888;
+  	overflow: hidden;
+  	width: 700px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form li{
+	list-style-type: none;
+}
+
+.contact{
+	width:500px;
+	border-color: #888888;
+	border-width: 2px;
+	border-style: solid;
+}
