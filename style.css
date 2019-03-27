@@ -18,15 +18,16 @@ h1{
 
 .menu{
 	color:#888888;
-	font-size: 24px;
+	font-size: 28px;
 	font-family: sans-serif;
 	list-style-type: none;
 	text-decoration: none;
 }
 .menu:hover{
 	color:#686868;
-	list-style-image: url(apple_marker.png);
-	font-size: 50px;
+	font-size: 28px;
+	list-style-image: url(./Img/apple_marker25x25.png);
+	
 }
 .product{
 	width: 160px;
@@ -68,7 +69,7 @@ h2{
 .info{
 	width: 800px;
 	font-family: sans-serif;
-	list-style-image: url(apple_marker.png);
+	list-style-image: url(Img/apple_marker.png);
 }
 .briefly{
 	width: 350px;
@@ -90,6 +91,10 @@ td:first-child{
 td.headline_info_table{
 	background-color: #a8a8a8;
 	text-align: center;
+}
+
+.content_li{
+	list-style-type:none;
 }
 
 .button{
