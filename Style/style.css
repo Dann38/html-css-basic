@@ -1,0 +1,179 @@
+*{
+	background-color: #fefefe;
+}
+
+
+
+.avatar{
+	width: 50px;
+}
+
+h1{
+	color: #434343;
+	font-size: 42px;
+	font-family: sans-serif;
+}
+
+
+
+.menu{
+	color:#888888;
+	font-size: 28px;
+	font-family: sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+.menu:hover{
+	color:#686868;
+	font-size: 28px;
+	list-style-image: url(apple_marker25x25.png);
+	
+}
+.product{
+	width: 160px;
+	border: #ffffff solid 2px;
+	border-radius: 15px;
+}
+
+.product:hover{
+	border: #888888 solid 2px;
+	
+}
+.img_product{
+	width: 150px;
+	border-radius: 15px;
+}
+.product_a{
+	color: #888888;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	width: 350px;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+}
+
+.phote_product{
+	width: 350px;
+	border: #888888 solid 1px;
+	border-radius: 25px;
+}
+
+
+.info{
+	width: 800px;
+	font-family: sans-serif;
+	list-style-image: url(apple_marker.png);
+}
+.briefly{
+	width: 350px;
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+table{
+	border: #888888 solid 2px;
+	border-radius: 10px;
+}
+
+td:first-child{
+	background-color: #e0e0e0;
+
+}
+
+td.headline_info_table{
+	background-color: #a8a8a8;
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+	color: #232323;
+	font-size: 24px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+
+.shop{
+	font-size: 36px;
+	width: 300px;
+	border-radius: 25px;
+}
+
+.button:hover{
+	color: #ffffff;
+	background-color: #30a0f0;
+	border-color: #00a0a0;
+}
+
+.button:active{
+	background-color: #30f0f0;
+}
+
+fieldset{
+	border: #e0e0e0 solid 2px;
+	border-radius: 15px;
+	
+
+}
+
+legend{
+	border: #e0e0e0 solid 2px;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+}
+
+.contact_li{
+	width: 200px;
+	list-style-type: none;
+
+}
+
+.field{
+	font-family: sans-serif; 
+	font-size: 20px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.field:hover{
+	color: #232323;
+	background-color: #e0e0e0;
+}
+
+.field:focus{
+	background-color: #30a0f0;
+	color: #ffffff;
+	border-color: #00a0a0;
+}
+
+ textarea{
+ 	width: 500px;
+ 	border: #888888 solid 2px;
+	border-radius: 10px;
+ }
+
+h3{
+	width: 280px;
+	border: #e0e0e0 solid 2px;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+}
+
+.contact{
+	font-family: sans-serif;
+}
