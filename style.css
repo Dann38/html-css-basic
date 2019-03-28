@@ -84,6 +84,15 @@ footer{
 	margin:25px 15px;
 }
 
+.article_min{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 5px 5px;
+}
+
 .products{
 	display: flex;
 	margin: 25px 15px;
@@ -93,6 +102,7 @@ footer{
 
 .product{
 	display: flex;
+	justify-content: space-between;
 	width: 350px;
 	height: 200px;
 	margin:23px;
@@ -191,6 +201,13 @@ td.headline_info_table{
 	font-size: 36px;
 	width: 300px;
 	border-radius: 25px;
+}
+
+.shop_min{
+	font-size: 20px;
+	width: 100px;
+	height:30px;
+	border-radius: 15px;
 }
 
 .button:hover{
