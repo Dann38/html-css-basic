@@ -6,48 +6,53 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<img class="avatar" src="Img/img_phone.png">
-		<h1>Apple'sShop</h1>
-		<nav>
-			<ul>
-				<li class="menu"><a href="index.html" class="menu">Главная</a></li>
-				<li class="menu"><a href="catalog.html" class="menu">Каталог</a></li>
-				<li class="menu"><a href="contact.html" class="menu">Контакты</a></li>
-			</ul>	
-		</nav>
-		<hr>
-	</header>
-	<content>
-		<form>
-			<fieldset>
-				<legend>Написать нам</legend>
-				<ul>
-					<li class="contact_li"><input class="field" type="text" name="name" placeholder="ИМЯ"></li>
-					<li class="contact_li"><input class="field" type="text" name="E-mail" placeholder="E-MAIL"></li>
-					<li class="contact_li"><input  class="field"type="text" name="tema" placeholder="ТЕМА"></li>
-					<li class="contact_li"><textarea cols="150" rows="10">Введите сообщение</textarea></li>
+	<div class="container">
+		<header>
+			<div class="title">
+				<a href="index.html"><img class="avatar" src="Img/DS.png"></a>
+				<h1 class="text_title">DeviceShop</h1>
+			</div>
+			
+			<nav>
+				<div class="menu">
+					<ul class="menu_ul">
+						<li class="menu_li"><a href="index.html" class="menu_a">Главная</a></li>
+						<li class="menu_li "><a href="catalog.html" class="menu_a min_catalog">Каталог</a></li>
+						<li class="menu_li"><a href="contact.html" class="menu_a">Контакты</a></li>
+					</ul>	
+				</div>
+				
+			</nav>
+		</header>
+		<content>
+			<form class="article">
+				<fieldset>
+					<legend>Написать нам</legend>
+					<ul>
+						<li class="contact_li"><input class="field input_name" type="text" name="name" placeholder="ИМЯ"></li>
+						<li class="contact_li"><input class="field" type="text" name="E-mail" placeholder="E-MAIL"></li>
+						<li class="contact_li"><input  class="field"type="text" name="tema" placeholder="ТЕМА"></li>
+						<li class="contact_li"><textarea cols="150" rows="10">Введите сообщение</textarea></li>
 
-					<li class="contact_li"><button class="button">Отправить</button></li>
+						<li class="contact_li"><button class="button">Отправить</button></li>
+					</ul>
+				</fieldset>
+			</form>
+			<div class="contact article">
+				<h3>Наши контакты</h3>
+				<ul>
+					<li class="contact_li"><b>Телефон:</b> 8-xxx-xxx-xx-xx</li>
+					<li class="contact_li"><b>Email:</b> apllesshop@mail.ru</li>
+					<li class="contact_li"><b>Адрес:</b> город Папуасовск, переулок Папуасов, дом 33</li>
 				</ul>
-			</fieldset>
-		</form>
-		
-		<hr>
-		<div class="contact">
-			<h3>Наши контакты</h3>
-			<ul>
-				<li class="contact_li"><b>Телефон:</b> 8-xxx-xxx-xx-xx</li>
-				<li class="contact_li"><b>Email:</b> apllesshop@mail.ru</li>
-				<li class="contact_li"><b>Адрес:</b> город Папуасовск, переулок Папуасов, дом 33</li>
-			</ul>
-			<p>Apple'sShop всегда рад покупателям, здесь вы сможите купить подходящий для вас <br>
-			гаджет компании Apple</p>
-		</div>
-	</content>
-		<hr> 
-	<footer>
-		<p>&copy; Все права защищены</p>
-	</footer>
+				<p>Apple'sShop всегда рад покупателям, здесь вы сможите купить подходящий для вас <br>
+				гаджет компании Apple</p>
+			</div>
+		</content>
+		<footer>
+			<p class="footer_text">&copy; Все права защищены</p>
+		</footer>
+	</div>
+	
 </body>
 </html>

@@ -1,53 +1,131 @@
-*{
+
+body{
 	background-color: #fefefe;
+	display: flex;
+	justify-content: center;
+
 }
 
+.container{
+	width: 800px;
+	background-color: #f0f0f0;
+	border-radius: 25px;
+}
+header{
+	height: 190px;
+	background-image: url(Img/header.jpg);
+	border-radius: 25px;
 
+}
 
+.title{
+	display: flex;
+
+}
 .avatar{
-	width: 50px;
+	width: 80px;
+	margin: 20px;
 }
-
-h1{
-	color: #434343;
-	font-size: 42px;
+.text_title{
+	font-size: 40px;
 	font-family: sans-serif;
 }
-
-
+nav{
+	display: flex;
+	justify-content: flex-end;
+}
 
 .menu{
-	color:#888888;
+	border: #fff solid 2px;
+	border-radius: 25px;
+	width: 430px;
+}
+
+.menu_li{
+	display: inline;
+}
+
+.menu_a{
+	margin-right: 10px;
+	color:#fff;
 	font-size: 28px;
 	font-family: sans-serif;
 	list-style-type: none;
 	text-decoration: none;
 }
-.menu:hover{
-	color:#686868;
-	font-size: 28px;
-	list-style-image: url(./Img/apple_marker25x25.png);
-	
+
+.menu_a:hover{
+	color:#6ff;
 }
+
+
+footer{
+	height: 100px;
+	border-radius: 0px 0px 25px 25px;
+	background-color: #333;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footer_text{
+	width: 430;
+	font-size: 18px;
+	color:#fff;
+	margin-right: 25px;
+}
+
+
+
+.article{
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin:25px 15px;
+}
+
+.products{
+	display: flex;
+	margin: 25px 15px;
+	background-color: #fff;
+	border-radius: 25px;
+}
+
 .product{
-	width: 160px;
-	border: #ffffff solid 2px;
+	display: flex;
+	width: 350px;
+	height: 200px;
+	margin:23px;
+	border: transparent solid 2px;
 	border-radius: 15px;
 }
 
 .product:hover{
-	border: #888888 solid 2px;
-	
+	border: #888 solid 2px;
 }
-.img_product{
-	width: 150px;
-	border-radius: 15px;
-}
+
 .product_a{
-	color: #888888;
+	color:#666;
+	font-size: 18px;
 	font-family: sans-serif;
 	text-decoration: none;
 }
+
+.img_product{
+	width: 120px;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 h2{
 	text-align: center;
@@ -67,7 +145,10 @@ h2{
 
 
 .info{
-	width: 800px;
+	padding: 15px;
+	background-color: #fff;
+	border-radius: 15px;
+	margin:25px 15px;
 	font-family: sans-serif;
 	list-style-image: url(Img/apple_marker.png);
 }
@@ -151,6 +232,10 @@ legend{
 	border-radius: 5px;
 }
 
+.input_name{
+	text-transform: capitalize;
+}
+
 .field:hover{
 	color: #232323;
 	background-color: #e0e0e0;
@@ -181,3 +266,5 @@ h3{
 .contact{
 	font-family: sans-serif;
 }
+
+
