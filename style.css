@@ -85,8 +85,7 @@ footer{
 }
 
 .article_min{
-	display: flex;
-	flex-wrap: wrap;
+	font-size: 16px;
 	padding: 5px;
 	background-color: #fff;
 	border-radius: 5px;
@@ -95,16 +94,14 @@ footer{
 
 .products{
 	display: flex;
+	flex-wrap: wrap;
 	margin: 25px 15px;
 	background-color: #fff;
 	border-radius: 25px;
 }
 
 .product{
-	display: flex;
-	justify-content: space-between;
-	width: 350px;
-	height: 200px;
+	width: 335px;
 	margin:23px;
 	border: transparent solid 2px;
 	border-radius: 15px;
@@ -115,6 +112,7 @@ footer{
 }
 
 .product_a{
+	display: flex;
 	color:#666;
 	font-size: 18px;
 	font-family: sans-serif;
@@ -125,17 +123,6 @@ footer{
 	width: 120px;
 	border-radius: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 h2{
 	text-align: center;
@@ -162,6 +149,7 @@ h2{
 	font-family: sans-serif;
 	list-style-image: url(Img/apple_marker.png);
 }
+
 .briefly{
 	width: 350px;
 	color: #707070;
@@ -169,6 +157,7 @@ h2{
 	font-style: italic;
 	line-height: 16px;
 }
+
 table{
 	border: #888888 solid 2px;
 	border-radius: 10px;
@@ -223,8 +212,6 @@ td.headline_info_table{
 fieldset{
 	border: #e0e0e0 solid 2px;
 	border-radius: 15px;
-	
-
 }
 
 legend{
@@ -264,11 +251,11 @@ legend{
 	border-color: #00a0a0;
 }
 
- textarea{
+textarea{
  	width: 500px;
  	border: #888888 solid 2px;
 	border-radius: 10px;
- }
+}
 
 h3{
 	width: 280px;
