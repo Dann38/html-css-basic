@@ -55,9 +55,11 @@ nav{
 }
 
 .menu_a:hover{
-	color:#6ff;
+	color: #30a0f0;
 }
-
+.menu_a:active{
+	color: #30f0f0;
+}
 
 footer{
 	height: 100px;
