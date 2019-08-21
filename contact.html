@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Контакты</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
 		<h1>Apple'sShop</h1>
 		<nav>
-			<a href="index.html">Главая</a>
-			<a href="catalog.html">Каталог</a>
-			<a href="contact.html">Контакты</a>
+			<ul>
+				<li><a href="index.html">Главая</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li><a href="contact.html">Контакты</a></li>
+			</ul>	
 		</nav>
 		<hr>
 	</header>
@@ -18,17 +21,20 @@
 		<form>
 			<fieldset>
 				<legend>Написать нам</legend>
-				
-				<input type="text" name="name" placeholder="ИМЯ">
-				<input type="text" name="E-mail" placeholder="E-MAIL">
-				<input type="text" name="tema" placeholder="ТЕМА">
-				<textarea cols="150" rows="10">Введите сообщение</textarea>
+				<ul>
+					<li><input type="text" name="name" placeholder="ИМЯ"></li>
+					<li><input type="text" name="E-mail" placeholder="E-MAIL"></li>
+					<li><input type="text" name="tema" placeholder="ТЕМА"></li>
+					<li><textarea cols="150" rows="10">Введите сообщение</textarea></li>
 
-				<inpyt type="button" >Отправить</inpyt>
-
+					<li><button class="button">Отправить</button></li>
+				</ul>
 			</fieldset>
 		</form>
-		<div>
+		
+		<hr>
+		<div class="contact">
+			<h3>Наши контакты</h3>
 			<ul>
 				<li><b>Телефон:</b> 8-xxx-xxx-xx-xx</li>
 				<li><b>Email:</b> apllesshop@mail.ru</li>
@@ -38,9 +44,7 @@
 			гаджет компании Apple</p>
 		</div>
 	</content>
-<hr> 
-			
-	</content>
+		<hr> 
 	<footer>
 		<p>&copy; Все права защищены</p>
 	</footer>

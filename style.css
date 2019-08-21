@@ -1,0 +1,75 @@
+*{
+	background-color: #f8f8f8;
+}
+
+header h1{
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+header nav a {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #888888;
+}
+header nav li{
+	list-style-type: none;
+}
+
+.info h3{
+	color: #000000;
+	font-size: 18px;
+	background-color: #eaeaea;
+
+}
+
+.info li{
+	list-style-image: url(apple_marker.png);
+}
+
+.briefly p{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.briefly a img{
+	border-color: #000000;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.button{
+	color: #000000;
+	font-size: 20px; 
+  	text-decoration: none;
+  	user-select: none; 
+  	border-color: #000000;
+	border-style: solid;
+	border-width: 3px;
+  	padding: .7em 1.5em; 
+}
+
+form{
+	border: 2px solid #888888;
+  	overflow: hidden;
+  	width: 700px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form li{
+	list-style-type: none;
+}
+
+.contact{
+	width:500px;
+	border-color: #888888;
+	border-width: 2px;
+	border-style: solid;
+}
