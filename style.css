@@ -1,75 +1,178 @@
 *{
-	background-color: #f8f8f8;
+	background-color: #fefefe;
 }
 
-header h1{
-	font-family: sans-serif;
-	font-size: 40px;
+
+
+.avatar{
+	width: 50px;
 }
 
-header nav a {
+h1{
+	color: #434343;
+	font-size: 42px;
 	font-family: sans-serif;
-	font-size: 20px;
-	color: #888888;
 }
-header nav li{
+
+
+
+.menu{
+	color:#888888;
+	font-size: 24px;
+	font-family: sans-serif;
 	list-style-type: none;
+	text-decoration: none;
+}
+.menu:hover{
+	color:#686868;
+	list-style-image: url(apple_marker.png);
+	font-size: 50px;
+}
+.product{
+	width: 160px;
+	border: #ffffff solid 2px;
+	border-radius: 15px;
 }
 
-.info h3{
-	color: #000000;
-	font-size: 18px;
-	background-color: #eaeaea;
-
+.product:hover{
+	border: #888888 solid 2px;
+	
+}
+.img_product{
+	width: 150px;
+	border-radius: 15px;
+}
+.product_a{
+	color: #888888;
+	font-family: sans-serif;
+	text-decoration: none;
 }
 
-.info li{
+h2{
+	text-align: center;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	width: 350px;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+}
+
+.phote_product{
+	width: 350px;
+	border: #888888 solid 1px;
+	border-radius: 25px;
+}
+
+
+.info{
+	width: 800px;
+	font-family: sans-serif;
 	list-style-image: url(apple_marker.png);
 }
-
-.briefly p{
+.briefly{
+	width: 350px;
 	color: #707070;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 16px;
 }
+table{
+	border: #888888 solid 2px;
+	border-radius: 10px;
+}
 
-.briefly a img{
-	border-color: #000000;
-	border-style: solid;
-	border-width: 3px;
+td:first-child{
+	background-color: #e0e0e0;
+
+}
+
+td.headline_info_table{
+	background-color: #a8a8a8;
+	text-align: center;
 }
 
 .button{
-	color: #000000;
-	font-size: 20px; 
-  	text-decoration: none;
-  	user-select: none; 
-  	border-color: #000000;
-	border-style: solid;
-	border-width: 3px;
-  	padding: .7em 1.5em; 
+	text-align: center;
+	color: #232323;
+	font-size: 24px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 5px;
 }
 
-form{
-	border: 2px solid #888888;
-  	overflow: hidden;
-  	width: 700px;
+.shop{
+	font-size: 36px;
+	width: 300px;
+	border-radius: 25px;
 }
 
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.button:hover{
+	color: #ffffff;
+	background-color: #30a0f0;
+	border-color: #00a0a0;
 }
 
-form li{
+.button:active{
+	background-color: #30f0f0;
+}
+
+fieldset{
+	border: #e0e0e0 solid 2px;
+	border-radius: 15px;
+	
+
+}
+
+legend{
+	border: #e0e0e0 solid 2px;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 25px;
+}
+
+.contact_li{
+	width: 200px;
 	list-style-type: none;
+
+}
+
+.field{
+	font-family: sans-serif; 
+	font-size: 20px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+.field:hover{
+	color: #232323;
+	background-color: #e0e0e0;
+}
+
+.field:focus{
+	background-color: #30a0f0;
+	color: #ffffff;
+	border-color: #00a0a0;
+}
+
+ textarea{
+ 	width: 500px;
+ 	border: #888888 solid 2px;
+	border-radius: 10px;
+ }
+
+h3{
+	width: 280px;
+	border: #e0e0e0 solid 2px;
+	color: #232323;
+	font-size: 36px;
+	font-family: sans-serif;
+	background-color: #e0e0e0;
+	border-radius: 25px;
 }
 
 .contact{
-	width:500px;
-	border-color: #888888;
-	border-width: 2px;
-	border-style: solid;
+	font-family: sans-serif;
 }
