@@ -6,35 +6,72 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<img class="avatar" src="img_phone.png">
-		<h1>Apple'sShop</h1>
-		<nav>
-			<ul>
-				<li class="menu"><a href="index.html" class="menu">Главая</a></li>
-				<li class="menu"><a href="catalog.html" class="menu">Каталог</a></li>
-				<li class="menu"><a href="contact.html" class="menu">Контакты</a></li>
-			</ul>	
-		</nav>
-	</header>
-	<hr>
-	<content>
-		<div class="product iphone4s">
-			<a class="product_a"href="iphone4S.html">
-				<img class="img_product" src="iphone4S.png">
-				<p>IPhone 4S</p>	
-			</a>
-		</div>
-		<div class="product iphone5">
-			<a class="product_a" href="iphone5.html">
-				<img class="img_product" src="iphone5.jpg">
-				<p>IPhone 4S</p>	
-			</a>
-		</div>
-	</content>
-	<hr> 
-	<footer>
-		<p>&copy; Все права защищены</p>
-	</footer>
+	<div class="container">
+		<header>
+			<div class="title">
+				<a href="index.html"><img class="avatar" src="Img/DS.png"></a>
+				<h1 class="text_title">DeviceShop</h1>
+			</div>
+			
+			<nav>
+				<div class="menu">
+					<ul class="menu_ul">
+						<li class="menu_li"><a href="index.html" class="menu_a">Главная</a></li>
+						<li class="menu_li "><a href="catalog.html" class="menu_a min_catalog">Каталог</a></li>
+						<li class="menu_li"><a href="contact.html" class="menu_a">Контакты</a></li>
+					</ul>	
+				</div>
+				
+			</nav>
+		</header>
+		<content>
+			<div class="products">
+				<div class="product iphone4s">
+					<div>
+						<a class="product_a"href="Product/iphone4S.html">
+							<div class="product_title">
+								<img class="img_product" src="Img/iphone4S.png">
+								<p>IPhone 4S</p>	
+							</div>
+							<div class="article_min">
+								<p class="article_min">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem cupiditate id doloribus officia esse aliquam, suscipit, eius perferendis reprehenderit placeat, explicabo enim repudiandae sapiente!</p>
+							</div>
+						</a>
+					</div>
+					<button class="button shop_min">Купить</button>
+				</div>
+				
+				<div class="product iphone5">
+					<a class="product_a" href="Product/iphone5.html">
+						<div class="product_title">
+							<img class="img_product" src="Img/iphone5.jpg">
+							<p>IPhone 5</p>	
+						</div>
+						<div class="article_min">
+							<p class="article_min">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem cupiditate id doloribus officia esse aliquam, suscipit, eius perferendis reprehenderit placeat, explicabo enim repudiandae sapiente!</p>	
+						</div>	
+					</a>
+					<button class="button shop_min">Купить</button>
+				</div>
+
+				<div class="product iphone5S">
+					<a class="product_a" href="Product/iphone5S.html">
+						<div class="product_title">
+							<img class="img_product" src="Img/iphone5S.jpg">
+							<p>IPhone 5S</p>	
+						</div>
+						<div class="article_min">
+							<p class="article_min">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quidem cupiditate id doloribus officia esse aliquam, suscipit, eius perferendis reprehenderit placeat, explicabo enim repudiandae sapiente!</p>	
+						</div>	
+					</a>
+					<button class="button shop_min">Купить</button>
+				</div>
+			</div>
+		</content>
+		<footer>
+			<p class="footer_text">&copy; Все права защищены</p>
+		</footer>
+	</div>
+	
 </body>
 </html>
